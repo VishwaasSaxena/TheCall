@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "490144186596",
+    "project_id": "thecall-7992e",
+    "storage_bucket": "thecall-7992e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:490144186596:android:91829566d9c98f6a666cf1",
+        "android_client_info": {
+          "package_name": "com.example.thecall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "490144186596-4eqje78dl7k95ffhdno3a4oi49gcseil.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdbUTfvGQ7f_VgCNAINq0KAfeu4ReMrx4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "490144186596-4eqje78dl7k95ffhdno3a4oi49gcseil.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

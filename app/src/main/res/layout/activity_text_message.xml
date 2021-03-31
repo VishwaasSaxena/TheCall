@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".TextMessage">
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        app:cardCornerRadius="35dp"
+        android:background="@drawable/round_bttn"
+        app:cardBackgroundColor="@color/colorPrimaryDark">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+           <ImageView
+               android:id="@+id/textIcon"
+               android:layout_width="100dp"
+               android:layout_height="100dp"
+               android:layout_centerHorizontal="true"
+               android:layout_marginTop="20dp"
+               android:background="@drawable/ic_launcher_text"
+               android:padding="10dp"
+               />
+            <TextView
+                android:id="@+id/textHead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textIcon"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="20dp"
+                android:text="Enter default text here :"
+                android:textSize="15sp"
+                android:textColor="@color/colorAccent"
+                android:padding="10dp"/>
+            <EditText
+                android:id="@+id/messageText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:layout_below="@id/textHead"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="0dp"
+                android:textColor="#D58607"/>
+            <Button
+                android:id="@+id/sendingA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_bttn"
+                android:layout_below="@id/messageText"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:padding="20dp"
+                android:text="Save Text"
+                android:textStyle="italic"
+                android:textColor="@color/colorAccent"/>
+
+
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
